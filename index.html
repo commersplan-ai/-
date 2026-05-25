@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сообщество медитаций | Центр Ментальной Целостности</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        :root {
+            --bg-deep: #0f172a;
+            --accent: #6366f1;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-deep);
+            color: #f8fafc;
+            overflow-x: hidden;
+        }
+
+        .hero-gradient {
+            background: radial-gradient(circle at center, rgba(99, 102, 241, 0.15) 0%, rgba(15, 23, 42, 1) 70%);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .glass-card:hover {
+            border-color: rgba(99, 102, 241, 0.4);
+            transform: translateY(-5px);
+        }
+
+        .cta-button {
+            background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+            box-shadow: 0 10px 25px -5px rgba(79, 70, 229, 0.4);
+        }
+
+        .text-balance { text-wrap: balance; }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-10">
+        <div class="absolute inset-0 hero-gradient z-0"></div>
+        <div class="container mx-auto px-4 relative z-10 text-center">
+            <div data-aos="fade-down" class="mb-6">
+                <span class="px-4 py-1 border border-indigo-500/30 rounded-full text-indigo-400 text-sm font-medium tracking-widest uppercase">
+                    Центр Ментальной Целостности представляет
+                </span>
+            </div>
+            
+            <h1 data-aos="fade-up" class="text-4xl md:text-7xl font-bold mb-8 leading-tight tracking-tight text-balance">
+                Одно пространство. Один фокус.<br>
+                <span class="text-indigo-400 font-light">Минута до ментального покоя.</span>
+            </h1>
+
+            <p data-aos="fade-up" data-aos-delay="200" class="max-w-2xl mx-auto text-lg md:text-xl text-slate-400 mb-10 leading-relaxed text-balance">
+                Регулярные совместные онлайн-медитации с Мастером Алексеем. Укротите хаос мыслей, сбросьте фоновую тревогу и верните себе внутренние поводья в кругу единомышленников. Без лишней мистики и эзотерики.
+            </p>
+
+            <div data-aos="fade-up" data-aos-delay="400" class="flex flex-col items-center gap-6">
+                <a href="https://vk.com/app5898182_-228435158#s=3691581" class="cta-button text-white px-8 py-5 rounded-2xl text-xl font-bold hover:scale-105 transition-transform duration-300">
+                    Войти в Сообщество и занять место
+                </a>
+                <div class="flex items-center gap-3 text-sm text-slate-500 bg-slate-900/50 px-4 py-2 rounded-lg">
+                    <i class="fas fa-gift text-indigo-400"></i>
+                    <span>Подарок: «Карманный справочник быстрых техник восстановления сил»</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problems Section -->
+    <section class="py-24 bg-slate-950/50">
+        <div class="container mx-auto px-4">
+            <h2 data-aos="fade-right" class="text-3xl md:text-4xl font-bold mb-16 text-center">Почему медитировать в одиночку дома <br class="hidden md:block">бывает так тяжело?</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Card 1 -->
+                <div data-aos="zoom-in" data-aos-delay="100" class="glass-card p-8 rounded-3xl">
+                    <div class="text-red-400 text-2xl mb-6 font-bold">❌</div>
+                    <h3 class="text-xl font-bold mb-4">Диктатура «Хочу» и «Надо»</h3>
+                    <p class="text-slate-400 leading-relaxed">Вы садитесь в тишине, но ваш ум, как бешеная лошадь, уносит вас в списки задач, дедлайны и тревоги.</p>
+                </div>
+                <!-- Card 2 -->
+                <div data-aos="zoom-in" data-aos-delay="200" class="glass-card p-8 rounded-3xl">
+                    <div class="text-red-400 text-2xl mb-6 font-bold">❌</div>
+                    <h3 class="text-xl font-bold mb-4">Энергетический кризис</h3>
+                    <p class="text-slate-400 leading-relaxed">Вы пытаетесь расслабиться, но фоновая усталость и социальный шум затуманивают мозг.</p>
+                </div>
+                <!-- Card 3 -->
+                <div data-aos="zoom-in" data-aos-delay="300" class="glass-card p-8 rounded-3xl">
+                    <div class="text-red-400 text-2xl mb-6 font-bold">❌</div>
+                    <h3 class="text-xl font-bold mb-4">Дефицит окружения</h3>
+                    <p class="text-slate-400 leading-relaxed">Сложно сохранять осознанность, когда среда требует бесконечного бега в колесе потребления.</p>
+                </div>
+                <!-- Card 4 -->
+                <div data-aos="zoom-in" data-aos-delay="400" class="glass-card p-8 rounded-3xl">
+                    <div class="text-red-400 text-2xl mb-6 font-bold">❌</div>
+                    <h3 class="text-xl font-bold mb-4">Отсутствие навыков</h3>
+                    <p class="text-slate-400 leading-relaxed">У вас нет четкого понимания, для чего это нужно. «Медитация ради медитации» — тупиковый путь.</p>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" class="mt-16 max-w-4xl mx-auto glass-card p-8 md:p-12 rounded-[2rem] border-l-4 border-l-indigo-500">
+                <p class="text-xl text-slate-300 leading-relaxed italic">
+                    "Если вы хотите результат с телом — вы идёте в фитнес-клуб и используете тренажёры под присмотром инструктора. В медитации схема аналогичная, но здесь важно «поле» Мастера и поддержка сообщества."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="py-24 relative overflow-hidden">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-indigo-600/10 rounded-full blur-[120px]"></div>
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="flex flex-col md:flex-row items-center gap-16">
+                <div class="md:w-1/2" data-aos="fade-right">
+                    <h2 class="text-3xl md:text-5xl font-bold mb-8 leading-tight">Синергия группы: почему практика эффективнее <span class="text-indigo-400 text-6xl block mt-2">в 7 раз?</span></h2>
+                    <p class="text-xl text-slate-400 leading-relaxed">
+                        Когда десятки людей одновременно направляют фокус внимания на одну задачу, создаётся мощный синергетический эффект. В коллективном поле даже новичок ловит состояние глубокого покоя за считанные минуты. Вам больше не нужно бороться с мыслями — группа держит ваше внимание за вас.
+                    </p>
+                </div>
+                <div class="md:w-1/2 grid grid-cols-2 gap-4" data-aos="fade-left">
+                    <div class="glass-card p-6 rounded-2xl text-center">
+                        <div class="text-3xl font-bold text-indigo-400 mb-2">100+</div>
+                        <div class="text-sm text-slate-500">Участников в поле</div>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl text-center mt-8">
+                        <div class="text-3xl font-bold text-indigo-400 mb-2">0%</div>
+                        <div class="text-sm text-slate-500">Мистики</div>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl text-center">
+                        <div class="text-3xl font-bold text-indigo-400 mb-2">100%</div>
+                        <div class="text-sm text-slate-500">Нейробиологии</div>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl text-center mt-8">
+                        <div class="text-3xl font-bold text-indigo-400 mb-2">∞</div>
+                        <div class="text-sm text-slate-500">Эффект резонанса</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-24 bg-slate-900/30">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16" data-aos="fade-up">Что вы забираете с собой?</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div data-aos="fade-up" data-aos-delay="100" class="text-center p-8">
+                    <div class="w-20 h-20 bg-indigo-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-brain text-3xl text-indigo-400"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 font-mono tracking-tighter uppercase">Кристальная ясность</h3>
+                    <p class="text-slate-400">Очищение мозга от ментального мусора, ложных целей и навязанных ожиданий.</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200" class="text-center p-8">
+                    <div class="w-20 h-20 bg-indigo-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-bolt text-3xl text-indigo-400"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 font-mono tracking-tighter uppercase">Прилив энергии</h3>
+                    <p class="text-slate-400">Вместо слива сил на внутреннюю борьбу, вы направляете ресурс на свои настоящие желания.</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="300" class="text-center p-8">
+                    <div class="w-20 h-20 bg-indigo-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-shield-halved text-3xl text-indigo-400"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 font-mono tracking-tighter uppercase">Внутренний покой</h3>
+                    <p class="text-slate-400">Страх упустить что-то отступает, уступая место спокойной уверенности.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bridge to Main Course -->
+    <section class="py-24 border-y border-slate-800 bg-[url('https://www.transparenttextures.com/patterns/dark-matter.png')]">
+        <div class="container mx-auto px-4 max-w-5xl">
+            <div class="glass-card p-10 md:p-16 rounded-[3rem] bg-indigo-900/10 border-indigo-500/20">
+                <h2 data-aos="fade-up" class="text-3xl md:text-5xl font-bold mb-10 text-center">От разового расслабления — к полной трансформации жизни</h2>
+                <div data-aos="fade-up" data-aos-delay="200" class="space-y-6 text-lg text-slate-300 leading-relaxed">
+                    <p>«Совместные медитации — это великолепный еженедельный душ для вашего ума. Но чтобы навести в жизни генеральную уборку, нужна система.</p>
+                    <p class="bg-indigo-500/10 p-6 rounded-2xl border-l-4 border-indigo-500">
+                        Каждая наша групповая практика — это живой практикум и опора для освоения Основного Курса <strong>”7 Основ Духовности и Счастливой Жизни”</strong>.
+                    </p>
+                    <p>На совместных встречах мы учимся вовремя натягивать ”внутренние поводья”. Но именно на Основном Курсе вы получаете пошаговый алгоритм, чтобы перевести жизнь из режима вечной жажды в режим естественной свободы и изобилия».</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Format & Schedule -->
+    <section class="py-24">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16" data-aos="fade-up">Как все устроено в нашем Клубе:</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div data-aos="fade-up" class="glass-card p-8 rounded-3xl border-b-4 border-b-indigo-500">
+                    <div class="text-indigo-400 mb-4 text-sm font-bold uppercase tracking-widest">Формат</div>
+                    <p class="text-xl font-bold">Живые онлайн-эфиры 2 раза в неделю + оффлайн встречи по согласованию.</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="100" class="glass-card p-8 rounded-3xl border-b-4 border-b-indigo-500">
+                    <div class="text-indigo-400 mb-4 text-sm font-bold uppercase tracking-widest">Время</div>
+                    <p class="text-xl font-bold">Ёмкие сессии по 20–30 минут — легко встроить в самый плотный график.</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200" class="glass-card p-8 rounded-3xl border-b-4 border-b-green-500">
+                    <div class="text-indigo-400 mb-4 text-sm font-bold uppercase tracking-widest">Стоимость</div>
+                    <p class="text-xl font-bold">Участие безоплатное — это наш вклад в создание осознанного сообщества.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-24 bg-indigo-600 relative overflow-hidden">
+        <div class="absolute inset-0 bg-black/20 z-0"></div>
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <h2 data-aos="zoom-out" class="text-4xl md:text-6xl font-bold mb-8">Перестаньте бежать. <br>Вернитесь к себе.</h2>
+            <p data-aos="fade-up" class="text-xl text-indigo-100 mb-12 max-w-2xl mx-auto">
+                Нажмите кнопку ниже, чтобы зайти в закрытую группу, забрать Справочник быстрых техник и получить ссылку на ближайший эфир с Мастером Алексеем.
+            </p>
+            <a data-aos="fade-up" href="https://vk.com/app5898182_-228435158#s=3691581" class="inline-block bg-white text-indigo-600 px-10 py-6 rounded-2xl text-2xl font-black hover:bg-slate-100 transition-colors shadow-2xl uppercase tracking-tight">
+                Записаться на ближайшую медитацию
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-slate-900 text-center text-slate-500 text-sm">
+        <div class="container mx-auto px-4">
+            <p class="mb-4">Центр Ментальной Целостности. Мастер Алексей.</p>
+            <p>&copy; 2024. Все права защищены. Гигиена внимания и нейробиология.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
